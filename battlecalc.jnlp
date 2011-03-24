@@ -18,7 +18,7 @@
   <resources>
     <j2se version="1.5+" />
 
-    <jar href="http://cq2.lacerta.be/battlecalc3.jar" main="true" />
+    <jar href="https://github.com/LennartC/CQ2-BattleCalc/raw/v3.4/target/battlecalc-3.4.0.jar" main="true" />
   </resources>
 
   <application-desc main-class="starter" />
