@@ -43,7 +43,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.WindowEvent;
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.net.URL;
 
@@ -63,7 +62,6 @@ import be.lacerta.cq2.battlecalc.objects.Creature;
 import be.lacerta.cq2.battlecalc.objects.Enchant;
 import be.lacerta.cq2.battlecalc.objects.Item;
 import be.lacerta.cq2.battlecalc.objects.Itherian;
-import be.lacerta.cq2.battlecalc.util.BrowserLauncher;
 import be.lacerta.cq2.battlecalc.util.CalcParser;
 
 @SuppressWarnings("serial")
@@ -302,16 +300,6 @@ public class MainFrame extends JFrame {
     update.setOpaque(false);
     update.setFont(new java.awt.Font("Verdana", Font.BOLD, 9));
     update.setPreferredSize(new java.awt.Dimension(110, 19));
-    update.setToolTipText("Check for new version...");
-    update.addActionListener(
-        new ActionListener() {
-      public void actionPerformed(ActionEvent e) {
-        try {
-            BrowserLauncher.openURL("http://cq2.lacerta.be");
-        } catch (IOException ex) {
-        }
-      }
-    });
     panel.add(cpr,BorderLayout.WEST);
     panel.add(update, BorderLayout.EAST);
 
