@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jnlp codebase="http://cq2.lacerta.be/" href="battlecalc.jnlp" version="3.4">
+  <information>
+    <title>CQ2 BattleCalc</title>
+    <vendor>mortician</vendor>
+    <homepage href="http://cq2.lacerta.be" />
+    <icon href="images/icon.jpg" />
+    <offline-allowed />
+
+    <description>CQ2 BattleCalc</description>
+    <description kind="tooltip">CQ2 BattleCalc</description>
+    <description kind="short">CQ2 Battle simulator by mortician.
+    </description>
+  </information>
+
+
+  <resources>
+    <j2se version="1.5+" />
+
+    <jar href="http://cq2.lacerta.be/battlecalc3.jar" main="true" />
+  </resources>
+
+  <application-desc main-class="starter" />
+</jnlp>
