@@ -11,7 +11,7 @@ INSTALLATION
 ============
 
 Download the jar:
-https://github.com/LennartC/CQ2-BattleCalc/raw/v3.4/target/battlecalc-3.4.0.jar
+https://github.com/downloads/LennartC/CQ2-BattleCalc/battlecalc-3.4.0.jar
 
 And run it. If doubleclick doesn't work, from command line:
 java -jar battlecalc-3.4.0.jar
